@@ -12,9 +12,23 @@ This library  best For basic libraries.
 ## How to use
 
 #### 1. Add dependencies
+
+##### Add it in your root build.gradle at the end of repositories:
 ```sh
- implementation 'androidx.appcompat:appcompat:1.0.2'
+ allprojects {
+ 		repositories {
+ 			...
+ 			maven { url 'https://jitpack.io' }
+ 		}
+ 	}
 ```
+##### Add the dependency
+```sh
+ dependencies {
+ 	        implementation 'com.github.mehrtarh:hillarest:1.0.0'
+ 	}
+```
+
 
 #### 2. Add api class
 ```sh
