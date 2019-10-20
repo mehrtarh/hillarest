@@ -1,0 +1,2 @@
+include ':app', ':hillarest'
+rootProject.name='HillaRestSample'
