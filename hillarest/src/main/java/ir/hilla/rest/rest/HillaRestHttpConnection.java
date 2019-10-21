@@ -231,7 +231,7 @@ public class HillaRestHttpConnection {
         else {
             StringBuilder tempUrl = new StringBuilder(url + "?");
             for (int i = 0; i < params.size(); i++) {
-                if (i != params.size() - 1 && i != 0)
+                if (i != 0)
                     tempUrl.append("&");
                 tempUrl.append(params.get(i).getKey()).append("=").append(params.get(i).getValue());
             }
