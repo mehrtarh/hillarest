@@ -25,7 +25,7 @@ This library  best For basic libraries.
 ##### Add the dependency
 ```sh
  dependencies {
- 	        implementation 'com.github.mehrtarh:hillarest:1.0.0'
+ 	        implementation 'com.github.mehrtarh:hillarest:1.0.1'
  	}
 ```
 
